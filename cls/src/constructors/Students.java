@@ -8,6 +8,7 @@ public class Students {
 		name="Sushant";
 		System.out.println("roll no = "+rollno);
 		System.out.println("Name = "+name);
+		
 	}
 	public static void main(String[] args) {
 		Students ob=new Students();
