@@ -8,9 +8,7 @@ interface Bill{
 
 public class ElectricBill {
 	
-	
 	public static void main(String[] args) {
 		
 	}
-	
 }

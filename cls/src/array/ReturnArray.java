@@ -15,11 +15,13 @@ public class ReturnArray {
 	}
 	public static void main(String[] args) {
 		int[] arr= {1,2,3,4,5,6};
-//		interchange(arr);
-//		for(int i=0;i<arr.length;i++) {
-//			System.out.println("array{"+i+"}="+arr[i]);
-		int a=10;
-		change(a);
-		System.out.println(a);
+		interchange(arr);
+		for(int i=0;i<arr.length;i++) {
+			System.out.println("array{"+i+"}="+arr[i]);
 		}
+			//		int a=10;
+//		change(a);
+//		System.out.println(a);
 	}
+
+}

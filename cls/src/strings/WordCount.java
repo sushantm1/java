@@ -15,15 +15,16 @@ public class WordCount {
 		String word="this";
 		String[] k=s.split(" ");
 		for(String i:k)
-			if(i=="this" | i=="This")
+			if(i=="this")
 				count++;
 		return count;
 	}
 	public static void main(String[] args) {
-		System.out.println("program to count word in a string.");
+		System.out.println("program to \"this\" count word in a string.");
 		Scanner sc=new Scanner(System.in);
 		String s=sc.nextLine();
-		System.out.println("total number of words in the given string are :"+thiscounter(s));
+		System.out.println("total number of \"this\" in the given string are :"+thiscounter(s));
+//		System.out.println("total number of words in the given string are :"+counter(s));
 		
 	}
 

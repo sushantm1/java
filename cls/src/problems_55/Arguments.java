@@ -4,11 +4,11 @@ import java.util.Scanner;
 
 public class Arguments {
 	static void  toFahrenheit(float val) {
-		float f=(5*(val-32))/9;		
+		float f=(val*9)/5+32;
 		System.out.println("the temp in fahrenhiet is : "+f);
 	}
 	static void  toCelsius(float val) {
-		float c=(val*9)/5+32;		
+		float c=(5*(val-32))/9;			
 		System.out.println("the temp in celsius is : "+c);
 	}
 	public static void main(String[] args) {
