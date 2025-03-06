@@ -1,7 +1,12 @@
 package multithreading.ThreeThreads;
 
-public class PirimeNUmber {
-	static int beg,end;
+public class PrimeNumber extends Thread {
+	int beg,end;
+	PrimeNumber(int beg,int end){
+		this.beg=beg;
+		this.end=end;
+	}
+	
 	static void isPrime(int n) {
 		if(n==2||n<2)
 			return;
@@ -18,9 +23,14 @@ public class PirimeNUmber {
 		System.out.println("prgm to print all prime number lies b/w "+beg+" to "+end);
 		for(int i=beg;i<=end;i++) {
 			isPrime(i);
+			try {
+				Thread.sleep(100);
+			} catch (Exception e) {
+				// TODO: handle exception
+			}
 		}
 	}
-	
-	
-	
+	public void run() {
+		AllPrimeNum(this.beg, this.end);
+	}
 }
