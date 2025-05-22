@@ -1,6 +1,6 @@
 package prgm55;
 
-public class Palindrome {
+public class P31_Palindrome {
 	static void number_is_Palindrome(int n) {
 		int check = 0,rest=n,rem=0;
 		while(rest>0) {
@@ -22,10 +22,10 @@ public class Palindrome {
 		System.out.println(result);
 	}
 	public static void main(String[] args) {
-		int num=141;
+		int number=141;
 		String str="aha";
 //		Palindrome check=new Palindrome();
-		number_is_Palindrome(num);
+		number_is_Palindrome(number);
 		string_is_palindrome(str);
 	}
 }

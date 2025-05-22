@@ -18,7 +18,6 @@ public class Multithread_table extends Thread {
 		// TODO: handle exception
 	}
 	}
-	
 	public static void main(String[] args) {
 		System.out.println("prgm to print table using multy threading.");
 		Scanner sc=new Scanner(System.in);

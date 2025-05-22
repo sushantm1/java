@@ -1,4 +1,5 @@
 package prgm55;
+//program to reverse a string
 class Reversing{
 //	using string builder
 	public void reverse_stringBuilder(String str) {
@@ -41,7 +42,7 @@ class Reversing{
 	}
 }
 
-public class ReverseString {
+public class P30_ReverseString {
 	public static void main(String[] args) {
 		String str="sushant";
 		Reversing rev=new Reversing();
